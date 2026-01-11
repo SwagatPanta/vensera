@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vencera - Digital Transformation & Data Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Vencera</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Business Data Into Insights</h1>
+            <p>Enterprise-grade digital transformation, data lakes, and intelligent reporting solutions</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" onclick="openServiceModal('Digital Transformation')">
+                    <div class="service-icon">🔄</div>
+                    <h3>Digital Transformation</h3>
+                    <p>Modernize your infrastructure and processes with cutting-edge technology solutions designed for scalability and efficiency.</p>
+                </div>
+                <div class="service-card" onclick="openServiceModal('Warehouse Solutions')">
+                    <div class="service-icon">🏢</div>
+                    <h3>Warehouse Solutions</h3>
+                    <p>Build robust data warehouses that consolidate and organize your business data for better accessibility and performance.</p>
+                </div>
+                <div class="service-card" onclick="openServiceModal('Data Lake Architecture')">
+                    <div class="service-icon">💧</div>
+                    <h3>Data Lake Architecture</h3>
+                    <p>Design and implement scalable data lakes that store raw data at scale, enabling advanced analytics and machine learning.</p>
+                </div>
+                <div class="service-card" onclick="openServiceModal('Advanced Reporting')">
+                    <div class="service-icon">📊</div>
+                    <h3>Advanced Reporting</h3>
+                    <p>Create interactive dashboards and comprehensive reports that provide real-time insights into your business metrics.</p>
+                </div>
+                <div class="service-card" onclick="openServiceModal('Financial Analytics')">
+                    <div class="service-icon">💰</div>
+                    <h3>Financial Analytics</h3>
+                    <p>Gain complete visibility into your financial performance with predictive models and detailed financial reporting.</p>
+                </div>
+                <div class="service-card" onclick="openServiceModal('Data Security')">
+                    <div class="service-icon">🔐</div>
+                    <h3>Data Security</h3>
+                    <p>Enterprise-grade security protocols to protect your sensitive data and ensure compliance with industry standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2>Integrated Solutions</h2>
+            <div class="solution-item">
+                <div class="solution-content">
+                    <h3>End-to-End Data Platform</h3>
+                    <p>Our comprehensive platform integrates digital transformation, warehouse management, and data lake technologies into one unified system. From data collection to actionable insights, we handle the entire pipeline.</p>
+                    <ul class="solution-features">
+                        <li>Real-time data processing</li>
+                        <li>Scalable architecture</li>
+                        <li>Advanced analytics engine</li>
+                        <li>Automated reporting</li>
+                    </ul>
+                </div>
+                <div class="solution-visual">
+                    <div class="pipeline">
+                        <div class="stage">Collect</div>
+                        <div class="arrow">→</div>
+                        <div class="stage">Process</div>
+                        <div class="arrow">→</div>
+                        <div class="stage">Analyze</div>
+                        <div class="arrow">→</div>
+                        <div class="stage">Report</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reports Section -->
+    <section id="reports" class="reports">
+        <div class="container">
+            <h2>Sample Reports & Dashboards</h2>
+            <div class="reports-grid">
+                <div class="report-card">
+                    <h4>Financial Dashboard</h4>
+                    <div class="dashboard-preview">
+                        <div class="metric">
+                            <span class="label">Revenue</span>
+                            <span class="value">$2.5M</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Growth</span>
+                            <span class="value">+34%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">ROI</span>
+                            <span class="value">280%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="report-card">
+                    <h4>Operational Metrics</h4>
+                    <div class="dashboard-preview">
+                        <div class="metric">
+                            <span class="label">Data Volume</span>
+                            <span class="value">500GB</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Processing Speed</span>
+                            <span class="value">99.9%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Uptime</span>
+                            <span class="value">99.99%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="report-card">
+                    <h4>Data Insights</h4>
+                    <div class="dashboard-preview">
+                        <div class="metric">
+                            <span class="label">Active Users</span>
+                            <span class="value">15K</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Data Points</span>
+                            <span class="value">2.3B</span>
+                        </div>
+                        <div class="metric">
+                            <span class="label">Queries/Day</span>
+                            <span class="value">100K</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Ready to transform your business? Let's talk about your data strategy.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Select Service</option>
+                        <option value="digital">Digital Transformation</option>
+                        <option value="warehouse">Warehouse Solutions</option>
+                        <option value="datalake">Data Lake</option>
+                        <option value="reporting">Advanced Reporting</option>
+                        <option value="financial">Financial Analytics</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Vencera</h4>
+                    <p>Leading digital transformation and data solutions provider</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Digital Transformation</a></li>
+                        <li><a href="#services">Data Warehouse</a></li>
+                        <li><a href="#services">Data Lake</a></li>
+                        <li><a href="#services">Analytics & Reporting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: hello@vencera.io</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vencera Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Service Details Page Modal -->
+    <div id="serviceDetailsModal" class="details-modal">
+        <div class="details-modal-content">
+            <button class="details-close" onclick="closeServiceDetails()">&times;</button>
+            <div class="details-container">
+                <div class="details-header">
+                    <div class="details-icon"></div>
+                    <h1 id="detailsTitle"></h1>
+                    <p id="detailsSubtitle" class="details-subtitle"></p>
+                </div>
+                
+                <div class="details-body">
+                    <!-- Overview Section -->
+                    <section class="details-section">
+                        <h2>Overview</h2>
+                        <p id="detailsOverview"></p>
+                    </section>
+                    
+                    <!-- How It Works -->
+                    <section class="details-section">
+                        <h2>How It Works</h2>
+                        <div class="process-steps" id="detailsProcess"></div>
+                    </section>
+                    
+                    <!-- Use Cases -->
+                    <section class="details-section">
+                        <h2>Real-World Use Cases</h2>
+                        <div class="use-cases" id="detailsUseCases"></div>
+                    </section>
+                    
+                    <!-- Technology Stack -->
+                    <section class="details-section">
+                        <h2>Technology Stack</h2>
+                        <div class="tech-stack" id="detailsTechStack"></div>
+                    </section>
+                    
+                    <!-- ROI & Metrics -->
+                    <section class="details-section">
+                        <h2>Expected ROI & Metrics</h2>
+                        <div class="roi-metrics" id="detailsROI"></div>
+                    </section>
+                    
+                    <!-- Implementation Timeline -->
+                    <section class="details-section">
+                        <h2>Implementation Timeline</h2>
+                        <div class="timeline" id="detailsTimeline"></div>
+                    </section>
+                </div>
+                
+                <div class="details-footer">
+                    <button class="details-btn-close" onclick="closeServiceDetails()">Close</button>
+                    <button class="details-btn-contact" onclick="contactForService()">Get in Touch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeServiceModal()">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon"></div>
+                <h2 id="modalTitle"></h2>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <div class="modal-features">
+                    <h3>Key Features</h3>
+                    <ul id="modalFeatures"></ul>
+                </div>
+                <div class="modal-benefits">
+                    <h3>Benefits</h3>
+                    <ul id="modalBenefits"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn-secondary" onclick="closeServiceModal()">Close</button>
+                <button class="modal-btn-primary" id="learnMoreBtn" onclick="openServiceDetails()">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

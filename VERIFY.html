@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vencera - Click Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Quick test of one service card -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Test: Click Any Card Below</h2>
+            <div class="services-grid">
+                <div class="service-card" onclick="openServiceModal('Digital Transformation')">
+                    <div class="service-icon">🔄</div>
+                    <h3>Digital Transformation</h3>
+                    <p>Click me to test the modal!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeServiceModal()">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon"></div>
+                <h2 id="modalTitle"></h2>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <div class="modal-features">
+                    <h3>Key Features</h3>
+                    <ul id="modalFeatures"></ul>
+                </div>
+                <div class="modal-benefits">
+                    <h3>Benefits</h3>
+                    <ul id="modalBenefits"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn-secondary" onclick="closeServiceModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- INLINE TEST SCRIPT -->
+    <script>
+        // Minimal test - should appear in console
+        console.log('✅ TEST SCRIPT LOADED');
+        
+        // Copy only the essentials from script.js
+        const serviceData = {
+            'Digital Transformation': {
+                icon: '🔄',
+                description: 'Comprehensive digital transformation services that modernize your entire business infrastructure.',
+                features: [
+                    'Legacy system modernization',
+                    'Cloud migration & optimization',
+                    'Process automation with AI/ML',
+                    'Custom enterprise solutions'
+                ],
+                benefits: [
+                    'Reduce operational costs by 40%+',
+                    'Accelerate time-to-market',
+                    'Improve system reliability',
+                    'Enhanced security & compliance'
+                ]
+            }
+        };
+
+        function openServiceModal(serviceName) {
+            console.log('🔵 openServiceModal called with:', serviceName);
+            const data = serviceData[serviceName];
+            if (!data) {
+                console.error('❌ Service data not found:', serviceName);
+                return;
+            }
+            
+            document.getElementById('modalTitle').textContent = serviceName;
+            document.getElementById('modalDescription').textContent = data.description;
+            document.querySelector('.modal-icon').textContent = data.icon;
+            document.getElementById('modalFeatures').innerHTML = data.features.map(f => `<li>${f}</li>`).join('');
+            document.getElementById('modalBenefits').innerHTML = data.benefits.map(b => `<li>${b}</li>`).join('');
+            
+            const modal = document.getElementById('serviceModal');
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+            console.log('✅ Modal displayed');
+        }
+
+        function closeServiceModal() {
+            const modal = document.getElementById('serviceModal');
+            modal.classList.remove('show');
+            document.body.style.overflow = 'auto';
+            console.log('✅ Modal closed');
+        }
+
+        console.log('✅ FUNCTIONS REGISTERED - Ready to click!');
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More Feature Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Test Section -->
+    <section style="padding: 3rem 1rem; background: #1a1a2e; text-align: center;">
+        <h2 style="color: #00d4ff; margin-bottom: 2rem;">Test: Click Any Card Below</h2>
+        <div class="services-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+            <div class="service-card" onclick="openServiceModal('Digital Transformation')" style="cursor: pointer;">
+                <div class="service-icon">🔄</div>
+                <h3>Digital Transformation</h3>
+                <p>Click to see quick overview, then click "Learn More" for details</p>
+            </div>
+            <div class="service-card" onclick="openServiceModal('Advanced Reporting')" style="cursor: pointer;">
+                <div class="service-icon">📊</div>
+                <h3>Advanced Reporting</h3>
+                <p>Click to see quick overview, then click "Learn More" for details</p>
+            </div>
+            <div class="service-card" onclick="openServiceModal('Data Security')" style="cursor: pointer;">
+                <div class="service-icon">🔐</div>
+                <h3>Data Security</h3>
+                <p>Click to see quick overview, then click "Learn More" for details</p>
+            </div>
+        </div>
+        <p style="color: #a0a0a0; margin-top: 2rem;">👆 Click any card above to test the complete flow</p>
+    </section>
+
+    <!-- Quick Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeServiceModal()">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon"></div>
+                <h2 id="modalTitle"></h2>
+            </div>
+            <div class="modal-body">
+                <p id="modalDescription"></p>
+                <div class="modal-features">
+                    <h3>Key Features</h3>
+                    <ul id="modalFeatures"></ul>
+                </div>
+                <div class="modal-benefits">
+                    <h3>Benefits</h3>
+                    <ul id="modalBenefits"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-btn-secondary" onclick="closeServiceModal()">Close</button>
+                <button class="modal-btn-primary" onclick="openServiceDetails()">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detailed Modal -->
+    <div id="serviceDetailsModal" class="details-modal">
+        <div class="details-modal-content">
+            <button class="details-close" onclick="closeServiceDetails()">&times;</button>
+            <div class="details-container">
+                <div class="details-header">
+                    <div class="details-icon"></div>
+                    <h1 id="detailsTitle"></h1>
+                    <p id="detailsSubtitle" class="details-subtitle"></p>
+                </div>
+                
+                <div class="details-body">
+                    <!-- Overview Section -->
+                    <section class="details-section">
+                        <h2>Overview</h2>
+                        <p id="detailsOverview"></p>
+                    </section>
+                    
+                    <!-- How It Works -->
+                    <section class="details-section">
+                        <h2>How It Works</h2>
+                        <div class="process-steps" id="detailsProcess"></div>
+                    </section>
+                    
+                    <!-- Use Cases -->
+                    <section class="details-section">
+                        <h2>Real-World Use Cases</h2>
+                        <div class="use-cases" id="detailsUseCases"></div>
+                    </section>
+                    
+                    <!-- Technology Stack -->
+                    <section class="details-section">
+                        <h2>Technology Stack</h2>
+                        <div class="tech-stack" id="detailsTechStack"></div>
+                    </section>
+                    
+                    <!-- ROI & Metrics -->
+                    <section class="details-section">
+                        <h2>Expected ROI & Metrics</h2>
+                        <div class="roi-metrics" id="detailsROI"></div>
+                    </section>
+                    
+                    <!-- Implementation Timeline -->
+                    <section class="details-section">
+                        <h2>Implementation Timeline</h2>
+                        <div class="timeline" id="detailsTimeline"></div>
+                    </section>
+                </div>
+                
+                <div class="details-footer">
+                    <button class="details-btn-close" onclick="closeServiceDetails()">Close</button>
+                    <button class="details-btn-contact" onclick="contactForService()">Get in Touch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        console.log('✅ Test page loaded');
+        console.log('✅ Service data loaded:', Object.keys(serviceData).length, 'services');
+        console.log('✅ Detailed info loaded:', Object.keys(serviceDetailsData).length, 'detailed services');
+    </script>
+</body>
+</html>
