@@ -1,4 +1,4 @@
-# 📚 Vencera Website - Complete Documentation Index
+# 📚 Vensera Tech Website - Complete Documentation Index
 
 ## 🎯 Start Here
 
@@ -210,7 +210,7 @@ Choose your preferred starting point:
 
 ## 🎉 You're Ready!
 
-Choose your starting point above and enjoy exploring your professional Vencera website!
+Choose your starting point above and enjoy exploring your professional Vensera Tech website!
 
 ---
 

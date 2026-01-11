@@ -1,4 +1,4 @@
-# 🚀 Quick Start - Vencera Website
+# 🚀 Quick Start - Vensera Tech Website
 
 ## ⚡ Get Started in 30 Seconds
 
