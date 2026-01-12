@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunnivaera - Digital Transformation & Data Solutions</title>
+    <title>Sunnivaera - Data Engineering & Analytics Solutions</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,8 +14,8 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#solutions">Solutions</a></li>
-                <li><a href="#reports">Reports</a></li>
+                <li><a href="#domains">Domains</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -24,8 +24,8 @@
     <!-- Hero Section -->
     <header id="home" class="hero">
         <div class="hero-content">
-            <h1>Transform Your Business Data Into Insights</h1>
-            <p>Enterprise-grade digital transformation, data lakes, and intelligent reporting solutions</p>
+            <h1>Transform Data Into Intelligence</h1>
+            <p>Enterprise-grade data engineering, advanced analytics, and real-time dashboards for healthcare, fintech, and telecom</p>
             <button class="cta-button">Get Started</button>
         </div>
     </header>
@@ -33,127 +33,100 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2>Our Services</h2>
+            <h2>Our Core Services</h2>
             <div class="services-grid">
-                <div class="service-card" onclick="openServiceModal('Digital Transformation')">
-                    <div class="service-icon">🔄</div>
-                    <h3>Digital Transformation</h3>
-                    <p>Modernize your infrastructure and processes with cutting-edge technology solutions designed for scalability and efficiency.</p>
+                <div class="service-card" onclick="openServiceModal('Data Engineering')">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Data Engineering</h3>
+                    <p>Build robust data pipelines supporting both real-time and batch processing at scale.</p>
                 </div>
-                <div class="service-card" onclick="openServiceModal('Warehouse Solutions')">
-                    <div class="service-icon">🏢</div>
-                    <h3>Warehouse Solutions</h3>
-                    <p>Build robust data warehouses that consolidate and organize your business data for better accessibility and performance.</p>
-                </div>
-                <div class="service-card" onclick="openServiceModal('Data Lake Architecture')">
-                    <div class="service-icon">💧</div>
-                    <h3>Data Lake Architecture</h3>
-                    <p>Design and implement scalable data lakes that store raw data at scale, enabling advanced analytics and machine learning.</p>
-                </div>
-                <div class="service-card" onclick="openServiceModal('Advanced Reporting')">
+                <div class="service-card" onclick="openServiceModal('Data Analytics')">
                     <div class="service-icon">📊</div>
-                    <h3>Advanced Reporting</h3>
-                    <p>Create interactive dashboards and comprehensive reports that provide real-time insights into your business metrics.</p>
+                    <h3>Advanced Data Analytics</h3>
+                    <p>Extract actionable insights from complex datasets with cutting-edge modeling techniques.</p>
                 </div>
-                <div class="service-card" onclick="openServiceModal('Financial Analytics')">
-                    <div class="service-icon">💰</div>
-                    <h3>Financial Analytics</h3>
-                    <p>Gain complete visibility into your financial performance with predictive models and detailed financial reporting.</p>
-                </div>
-                <div class="service-card" onclick="openServiceModal('Data Security')">
-                    <div class="service-icon">🔐</div>
-                    <h3>Data Security</h3>
-                    <p>Enterprise-grade security protocols to protect your sensitive data and ensure compliance with industry standards.</p>
+                <div class="service-card" onclick="openServiceModal('Dashboard Solutions')">
+                    <div class="service-icon">📈</div>
+                    <h3>Dashboard Solutions</h3>
+                    <p>Present data beautifully with interactive dashboards that drive real business decisions.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Solutions Section -->
-    <section id="solutions" class="solutions">
+    <!-- Domains Section -->
+    <section id="domains" class="domains">
         <div class="container">
-            <h2>Integrated Solutions</h2>
-            <div class="solution-item">
-                <div class="solution-content">
-                    <h3>End-to-End Data Platform</h3>
-                    <p>Our comprehensive platform integrates digital transformation, warehouse management, and data lake technologies into one unified system. From data collection to actionable insights, we handle the entire pipeline.</p>
-                    <ul class="solution-features">
-                        <li>Real-time data processing</li>
-                        <li>Scalable architecture</li>
-                        <li>Advanced analytics engine</li>
-                        <li>Automated reporting</li>
-                    </ul>
+            <h2>Industry Expertise</h2>
+            <div class="domains-grid">
+                <div class="domain-card">
+                    <div class="domain-icon">🏥</div>
+                    <h3>Healthcare</h3>
+                    <p>HIPAA-compliant data solutions for patient analytics and operational intelligence.</p>
                 </div>
-                <div class="solution-visual">
-                    <div class="pipeline">
-                        <div class="stage">Collect</div>
-                        <div class="arrow">→</div>
-                        <div class="stage">Process</div>
-                        <div class="arrow">→</div>
-                        <div class="stage">Analyze</div>
-                        <div class="arrow">→</div>
-                        <div class="stage">Report</div>
-                    </div>
+                <div class="domain-card">
+                    <div class="domain-icon">💰</div>
+                    <h3>Fintech</h3>
+                    <p>Real-time financial analytics and risk modeling for modern financial services.</p>
+                </div>
+                <div class="domain-card">
+                    <div class="domain-icon">📱</div>
+                    <h3>Telecom</h3>
+                    <p>High-volume network analytics and customer behavior insights at scale.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Reports Section -->
-    <section id="reports" class="reports">
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="tech-stack">
         <div class="container">
-            <h2>Sample Reports & Dashboards</h2>
-            <div class="reports-grid">
-                <div class="report-card">
-                    <h4>Financial Dashboard</h4>
-                    <div class="dashboard-preview">
-                        <div class="metric">
-                            <span class="label">Revenue</span>
-                            <span class="value">$2.5M</span>
-                        </div>
-                        <div class="metric">
-                            <span class="label">Growth</span>
-                            <span class="value">+34%</span>
-                        </div>
-                        <div class="metric">
-                            <span class="label">ROI</span>
-                            <span class="value">280%</span>
-                        </div>
-                    </div>
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4>Apache Iceberg</h4>
+                    <p>Open table format for analytics with ACID transactions and time-travel queries</p>
                 </div>
-                <div class="report-card">
-                    <h4>Operational Metrics</h4>
-                    <div class="dashboard-preview">
-                        <div class="metric">
-                            <span class="label">Data Volume</span>
-                            <span class="value">500GB</span>
-                        </div>
-                        <div class="metric">
-                            <span class="label">Processing Speed</span>
-                            <span class="value">99.9%</span>
-                        </div>
-                        <div class="metric">
-                            <span class="label">Uptime</span>
-                            <span class="value">99.99%</span>
-                        </div>
-                    </div>
+                <div class="tech-item">
+                    <h4>HDFS</h4>
+                    <p>Distributed file system for fault-tolerant, high-throughput data processing</p>
                 </div>
-                <div class="report-card">
-                    <h4>Data Insights</h4>
-                    <div class="dashboard-preview">
-                        <div class="metric">
-                            <span class="label">Active Users</span>
-                            <span class="value">15K</span>
-                        </div>
-                        <div class="metric">
-                            <span class="label">Data Points</span>
-                            <span class="value">2.3B</span>
-                        </div>
-                        <div class="metric">
-                            <span class="label">Queries/Day</span>
-                            <span class="value">100K</span>
-                        </div>
-                    </div>
+                <div class="tech-item">
+                    <h4>MinIO</h4>
+                    <p>Cloud-native object storage for scalable, cost-efficient data lakes</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Big Data Technologies</h4>
+                    <p>Spark, Hadoop, Kafka, and modern data stack integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <h2>Why Sunnivaera</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">✓</div>
+                    <h3>Proven Expertise</h3>
+                    <p>Years of experience in data engineering across healthcare, fintech, and telecom</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✓</div>
+                    <h3>Real-Time & Batch</h3>
+                    <p>Seamless handling of both streaming and batch data processing workloads</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✓</div>
+                    <h3>Cloud-Native</h3>
+                    <p>Modern architecture designed for scalability and cost efficiency</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✓</div>
+                    <h3>Enterprise Security</h3>
+                    <p>HIPAA, SOC 2, and compliance-ready solutions for regulated industries</p>
                 </div>
             </div>
         </div>
@@ -163,27 +136,11 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>Get In Touch</h2>
-            <p>Ready to transform your business? Let's talk about your data strategy.</p>
             <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <select required>
-                        <option value="">Select Service</option>
-                        <option value="digital">Digital Transformation</option>
-                        <option value="warehouse">Warehouse Solutions</option>
-                        <option value="datalake">Data Lake</option>
-                        <option value="reporting">Advanced Reporting</option>
-                        <option value="financial">Financial Analytics</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <textarea placeholder="Tell us about your project" rows="5" required></textarea>
-                </div>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Company" required>
+                <textarea placeholder="Tell us about your project" rows="5" required></textarea>
                 <button type="submit" class="submit-btn">Send Message</button>
             </form>
         </div>
@@ -195,15 +152,14 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>Sunnivaera</h4>
-                    <p>Leading digital transformation and data solutions provider</p>
+                    <p>Data Engineering & Advanced Analytics for Enterprise</p>
                 </div>
                 <div class="footer-section">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="#services">Digital Transformation</a></li>
-                        <li><a href="#services">Data Warehouse</a></li>
-                        <li><a href="#services">Data Lake</a></li>
-                        <li><a href="#services">Analytics & Reporting</a></li>
+                        <li><a href="#services">Data Engineering</a></li>
+                        <li><a href="#services">Data Analytics</a></li>
+                        <li><a href="#services">Dashboards</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -218,87 +174,11 @@
         </div>
     </footer>
 
-
-    <!-- Service Details Page Modal -->
-    <div id="serviceDetailsModal" class="details-modal">
-        <div class="details-modal-content">
-            <button class="details-close" onclick="closeServiceDetails()">&times;</button>
-            <div class="details-container">
-                <div class="details-header">
-                    <div class="details-icon"></div>
-                    <h1 id="detailsTitle"></h1>
-                    <p id="detailsSubtitle" class="details-subtitle"></p>
-                </div>
-                
-                <div class="details-body">
-                    <!-- Overview Section -->
-                    <section class="details-section">
-                        <h2>Overview</h2>
-                        <p id="detailsOverview"></p>
-                    </section>
-                    
-                    <!-- How It Works -->
-                    <section class="details-section">
-                        <h2>How It Works</h2>
-                        <div class="process-steps" id="detailsProcess"></div>
-                    </section>
-                    
-                    <!-- Use Cases -->
-                    <section class="details-section">
-                        <h2>Real-World Use Cases</h2>
-                        <div class="use-cases" id="detailsUseCases"></div>
-                    </section>
-                    
-                    <!-- Technology Stack -->
-                    <section class="details-section">
-                        <h2>Technology Stack</h2>
-                        <div class="tech-stack" id="detailsTechStack"></div>
-                    </section>
-                    
-                    <!-- ROI & Metrics -->
-                    <section class="details-section">
-                        <h2>Expected ROI & Metrics</h2>
-                        <div class="roi-metrics" id="detailsROI"></div>
-                    </section>
-                    
-                    <!-- Implementation Timeline -->
-                    <section class="details-section">
-                        <h2>Implementation Timeline</h2>
-                        <div class="timeline" id="detailsTimeline"></div>
-                    </section>
-                </div>
-                
-                <div class="details-footer">
-                    <button class="details-btn-close" onclick="closeServiceDetails()">Close</button>
-                    <button class="details-btn-contact" onclick="contactForService()">Get in Touch</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Service Modal -->
     <div id="serviceModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeServiceModal()">&times;</span>
-            <div class="modal-header">
-                <div class="modal-icon"></div>
-                <h2 id="modalTitle"></h2>
-            </div>
-            <div class="modal-body">
-                <p id="modalDescription"></p>
-                <div class="modal-features">
-                    <h3>Key Features</h3>
-                    <ul id="modalFeatures"></ul>
-                </div>
-                <div class="modal-benefits">
-                    <h3>Benefits</h3>
-                    <ul id="modalBenefits"></ul>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="modal-btn-secondary" onclick="closeServiceModal()">Close</button>
-                <button class="modal-btn-primary" id="learnMoreBtn" onclick="openServiceDetails()">Learn More</button>
-            </div>
+            <div id="modalBody"></div>
         </div>
     </div>
 
