@@ -537,13 +537,24 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-.slide-content h1, .slide-content h3 { font-size: 4rem; margin-bottom: 1.5rem;
-    font-weight: 800; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); line-height: 1.2;
+.slide-content h1,
+.slide-content h3 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    line-height: 1.2;
+    color: white !important;
 }
 
-.slide-content p { font-size: 1.3rem;
-    max-width: 800px; margin: 0 auto 2rem;
-    opacity: 0.95; line-height: 1.6; }
+.slide-content p {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    opacity: 0.95;
+    line-height: 1.6;
+    color: white !important;
+}
 
 /* Hero Slide Styling */
 .hero-slide {
