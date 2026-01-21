@@ -507,7 +507,8 @@ body {
 }
 
 .carousel-slide.fade {
-    display: flex;
+    display: flex !important;
+}
 }
 
 .slide-content {
