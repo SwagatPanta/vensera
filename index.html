@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunnivaera - Data Engineering & Analytics Solutions</title>
+    <title>Sunnivaera - Trusted Intelligence for Finance & Cyber Defense</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,9 +13,9 @@
             <div class="logo">Sunnivaera</div>
             <ul class="nav-links">
                 <li><a href="#home"><span class="nav-icon">&#127968;</span> Home</a></li>
+                <li><a href="about.html"><span class="nav-icon">&#128712;</span> About Us</a></li>
                 <li><a href="#services"><span class="nav-icon">&#128203;</span> Services</a></li>
-                <li><a href="#domains"><span class="nav-icon">&#127970;</span> Domains</a></li>
-                <li><a href="#tech-stack"><span class="nav-icon">&#128736;</span> Tech Stack</a></li>
+                <li><a href="team.html"><span class="nav-icon">&#128101;</span> Team</a></li>
                 <li><a href="#contact"><span class="nav-icon">&#128231;</span> Contact</a></li>
             </ul>
         </div>
@@ -27,8 +27,8 @@
             <div class="carousel">
                 <div class="carousel-slide" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.85) 0%, rgba(118, 75, 162, 0.85) 100%), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&h=900&fit=crop') center/cover;">
                     <div class="slide-content hero-slide">
-                        <h1>Transform Data Into Intelligence</h1>
-                        <p>Enterprise-grade data engineering, advanced analytics, and real-time dashboards for healthcare, fintech, and telecom</p>
+                        <h1>Trusted Intelligence for Finance & Cyber Defense</h1>
+                        <p>Building a unified Lakehouse-powered FinTech and Cyber Intelligence Platform that helps financial institutions understand customers, regulators, and attackers—simultaneously</p>
                         <button class="cta-button">Get Started</button>
                     </div>
                 </div>
@@ -74,22 +74,97 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2>Our Core Services</h2>
-            <div class="services-grid">
-                <div class="service-card" onclick="openServiceModal('Data Engineering')">
-                    <div class="service-icon">⚙️</div>
-                    <h3>Data Engineering</h3>
-                    <p>Build robust data pipelines supporting both real-time and batch processing at scale.</p>
+            <h2>Product & Services</h2>
+            
+            <!-- Core Platform -->
+            <div class="product-category">
+                <h3 class="category-title">Core Platform: FinTech Data Lakehouse</h3>
+                <p class="category-subtitle">One Trusted Data Brain for Financial Institutions</p>
+                
+                <div class="services-grid">
+                    <div class="service-card" onclick="openServiceModal('Customer 360')">
+                        <div class="service-icon">👤</div>
+                        <h3>Customer 360</h3>
+                        <p>Unified customer profiles with behavioral, transactional, and digital signals. Golden record and identity resolution.</p>
+                    </div>
+                    <div class="service-card" onclick="openServiceModal('Recommendation')">
+                        <div class="service-icon">🎯</div>
+                        <h3>Recommendation & Personalization</h3>
+                        <p>Next-best-action and next-best-offer with context-aware, real-time decisioning and omni-channel journey orchestration.</p>
+                    </div>
+                    <div class="service-card" onclick="openServiceModal('Fraud Detection')">
+                        <div class="service-icon">🔍</div>
+                        <h3>Fraud Detection</h3>
+                        <p>Real-time anomaly detection with behavioral and device intelligence, network and graph-based fraud analysis.</p>
+                    </div>
+                    <div class="service-card" onclick="openServiceModal('AML')">
+                        <div class="service-icon">⚖️</div>
+                        <h3>AML & Compliance</h3>
+                        <p>Transaction monitoring and risk scoring with intelligent alert prioritization and explainable AI for regulators.</p>
+                    </div>
+                    <div class="service-card" onclick="openServiceModal('Digital Lending')">
+                        <div class="service-icon">💳</div>
+                        <h3>Digital Lending & Credit Intelligence</h3>
+                        <p>Multi-dimensional credit scoring with transaction behavior, cash-flow analysis, and alternative data integration.</p>
+                    </div>
                 </div>
-                <div class="service-card" onclick="openServiceModal('Data Analytics')">
-                    <div class="service-icon">📊</div>
-                    <h3>Advanced Data Analytics</h3>
-                    <p>Extract actionable insights from complex datasets with cutting-edge modeling techniques.</p>
+            </div>
+
+            <!-- Cybersecurity -->
+            <div class="product-category">
+                <h3 class="category-title">Cybersecurity Product Line</h3>
+                <p class="category-subtitle">Security That Understands Data, Identity & Behavior</p>
+                
+                <div class="services-grid">
+                    <div class="service-card" onclick="openServiceModal('Identity Security')">
+                        <div class="service-icon">🔐</div>
+                        <h3>Identity-Centric Security</h3>
+                        <p>Zero Trust Architecture with continuous authentication and identity threat detection.</p>
+                    </div>
+                    <div class="service-card" onclick="openServiceModal('Data Security')">
+                        <div class="service-icon">🛡️</div>
+                        <h3>Data Security & Privacy</h3>
+                        <p>Data classification, lineage, sensitive data discovery, and policy-driven access control.</p>
+                    </div>
+                    <div class="service-card" onclick="openServiceModal('Threat Intelligence')">
+                        <div class="service-icon">🎯</div>
+                        <h3>AI-Driven Threat Intelligence</h3>
+                        <p>UEBA with insider threat detection and ML-based SOC automation.</p>
+                    </div>
+                    <div class="service-card" onclick="openServiceModal('Cloud Security')">
+                        <div class="service-icon">☁️</div>
+                        <h3>Cloud & API Security</h3>
+                        <p>FinTech API protection, runtime cloud posture monitoring, and DevSecOps integration.</p>
+                    </div>
                 </div>
-                <div class="service-card" onclick="openServiceModal('Dashboard Solutions')">
-                    <div class="service-icon">📈</div>
-                    <h3>Dashboard Solutions</h3>
-                    <p>Present data beautifully with interactive dashboards that drive real business decisions.</p>
+            </div>
+
+            <!-- AI Intelligence -->
+            <div class="product-category">
+                <h3 class="category-title">AI & Intelligence Layer</h3>
+                <p class="category-subtitle">Shared Across All Products</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🧠</div>
+                        <h3>Feature Store</h3>
+                        <p>Cross-domain feature reuse for consistency and efficiency</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚙️</div>
+                        <h3>MLOps & Model Governance</h3>
+                        <p>Complete lifecycle management for ML models with governance</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">✅</div>
+                        <h3>Responsible AI</h3>
+                        <p>Explainability and transparency for regulatory compliance</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Real-time Decision Engines</h3>
+                        <p>Instant decisioning capabilities across all platforms</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -193,14 +268,15 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>Sunnivaera</h4>
-                    <p>Data Engineering & Advanced Analytics for Enterprise</p>
+                    <p>Trusted Intelligence for Finance & Cyber Defense</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Services</h4>
+                    <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#services">Data Engineering</a></li>
-                        <li><a href="#services">Data Analytics</a></li>
-                        <li><a href="#services">Dashboards</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="team.html">Team</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -210,7 +286,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Sunnivaera Inc. All rights reserved.</p>
+                <p>&copy; 2026 Sunnivaera Pvt. Ltd. All rights reserved.</p>
             </div>
         </div>
     </footer>

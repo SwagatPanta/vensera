@@ -1,0 +1,178 @@
+﻿Sunnivaera Pvt. Ltd
+
+
+#page About US
+“Trusted Intelligence for Finance & Cyber Defense”
+Sunnivaera is a product-driven technology company building a unified Lakehouse-powered FinTech and Cyber Intelligence Platform. We design intelligence systems that understand customers, regulators, and attackers—simultaneously.
+Our platforms enable financial institutions to turn fragmented data into actionable insights, proactive risk controls, and responsible AI-driven decisions.
+
+
+Vision:
+To become the world’s most trusted intelligence platform where financial data, security, and AI converge to protect and empower digital economies.
+
+
+ Mission:
+Sunnivaera builds secure, scalable, and regulator-ready data and cybersecurity products that help financial institutions deeply understand customers, prevent financial crime, and innovate responsibly using AI.
+
+
+Why Sunnivaera Exists: A single, intelligence-driven platform that unifies analytics, fraud, AML, digital lending, and cybersecurity on a common data and AI foundation.
+The Problem Today
+* Fragmented data across systems and channels
+* Reactive fraud and AML operations
+* Disconnected cybersecurity tools
+* AI models that lack governance, transparency, and trust 
+Sunnivaera Pvt. Ltd
+Our Belief
+   * Data and security must be one system, not silos
+   * AI must be explainable, auditable, and compliant by design
+   * Products should continuously adapt, not just detect threats
+
+
+
+
+#page Our Capacity
+Sunnivaera should follow these rules:
+
+
+   1. Product-First, Not Project-First
+
+
+   * Internal product roadmap
+   * Minimal customization
+   * Configurable, not bespoke
+
+
+   2. Single Data & Security DNA
+
+
+   * Same lakehouse → analytics + fraud + AML + security
+   * One identity graph across platforms
+
+
+   3. Regulation as a Feature
+
+
+   * Audit trails
+   * Explainability dashboards
+   * Model decision transparency
+
+
+   4. Global Mindset, Local Intelligence
+
+
+   * Global compliance frameworks
+   * Localization by policy & data rules
+   * Especially strong for the global fit 
+
+
+
+
+#page Product and Services
+   1. Core Platform: FinTech Data Lakehouse
+One Trusted Data Brain for Financial Institutions
+Data Foundation 
+   * Multi-cloud lakehouse (AWS, Azure, GCP and on premisses environment)
+   * Real-time streaming and batch ingestion
+   * Structured, semi-structured, and alternative data
+   * Privacy-by-design and data sovereignty
+Domain Intelligence Products
+   1. Customer 360
+   * Unified customer profiles
+   * Behavioral, transactional, and digital signals
+   * Golden record and identity resolution
+   2. Recommendation & Personalization
+   * Next-best-action and next-best-offer
+   * Context-aware, real-time decisioning
+   * Omni-channel journey orchestration
+   3. Fraud Detection
+   * Real-time anomaly detection
+   * Behavioral and device intelligence
+   * Network and graph-based fraud analysis
+   4. AML & Compliance
+   * Transaction monitoring and risk scoring
+   * Intelligent alert prioritization
+   * Explainable AI for regulators and auditors
+   5. Digital Lending & Credit Intelligence
+   * Multi-dimensional credit and risk scoring:
+   * Transaction behavior and cash-flow analysis
+   * Repayment and delinquency patterns
+   * Capacity and obligation assessment
+   * Credit bureau and alternative data integration
+   * Willingness, stability, and behavioral indicators
+
+
+
+
+
+
+B. CYBERSECURITY PRODUCT LINE
+
+
+Security That Understands Data, Identity & Behavior
+
+
+1. Identity-Centric Security
+
+
+   * Zero Trust Architecture
+   * Continuous authentication
+   * Identity threat detection
+
+
+2. Data Security & Privacy
+
+
+   * Data classification & lineage
+   * Sensitive data discovery
+   * Policy-driven access control
+
+
+3. AI-Driven Threat Intelligence
+
+
+   * UEBA (User & Entity Behavior Analytics)
+   * Insider threat detection
+   * ML-based SOC automation
+
+
+4. Cloud & API Security
+
+
+   * FinTech API protection
+   * Runtime cloud posture monitoring
+   * DevSecOps integration
+
+
+
+
+C. AI & INTELLIGENCE LAYER (Shared Across Products)
+
+
+   * Feature store (cross-domain reuse)
+   * MLOps & Model Governance
+   * Responsible AI & explainability
+   * Real-time decision engines
+
+
+
+
+#page team
+Our Expert Leadership & Operations Team 
+Sunnivaera is powered by a highly accomplished leadership and operations team, bringing together decades of collective experience across technology, business strategy, engineering excellence, people management, and enterprise operations. Our team combines deep domain expertise with a shared commitment to innovation, integrity, and long-term value creation.
+Executive Leadership
+   * Chief Executive Officer (CEO)
+Provides strategic vision, organizational leadership, and governance, with extensive experience in scaling businesses, driving innovation, and building sustainable enterprises.
+   * Chief Technology Officer (CTO)
+Leads technology strategy, architecture, and innovation, leveraging decades of hands-on experience in enterprise systems, cloud platforms, data, and emerging technologies.
+   * Chief Business Officer (CBO)
+Oversees business growth, partnerships, and market expansion, backed by a strong track record in revenue strategy, customer success, and global business development.
+   * Chief Operating Officer (COO)
+Drives operational excellence, delivery governance, and execution, ensuring scalable processes, quality outcomes, and efficient organizational performance.
+Engineering & Delivery
+      * Director of Engineering
+Leads engineering teams and delivery frameworks, ensuring high-quality, secure, and scalable solutions through proven engineering leadership and best practices.
+People, Culture & Operations
+         * People & Culture (P&C) Team
+Champions talent strategy, organizational culture, leadership development, and workforce excellence, supported by decades of HR and people management experience.
+         * Administration Team
+Ensures smooth day-to-day operations, compliance, finance coordination, and organizational support, enabling teams to focus on innovation and customer success.

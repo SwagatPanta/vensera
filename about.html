@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sunnivaera</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-hero {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%);
+            padding: 120px 0 80px;
+            text-align: center;
+            color: white;
+        }
+        .about-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .about-hero .tagline {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        .about-section {
+            padding: 80px 0;
+        }
+        .about-section:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #667eea;
+            text-align: center;
+        }
+        .about-content h3 {
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #764ba2;
+        }
+        .about-content p, .about-content li {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .vision-mission-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        .vm-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-top: 4px solid #667eea;
+        }
+        .vm-card h3 {
+            font-size: 2rem;
+            color: #667eea;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+        .problem-belief {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        .pb-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .pb-card h3 {
+            color: #764ba2;
+            margin-top: 0;
+        }
+        .pb-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .pb-card li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .pb-card li:before {
+            content: "•";
+            color: #667eea;
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0;
+        }
+        .why-exists {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+            margin: 2rem 0;
+        }
+        .why-exists h3 {
+            color: #667eea;
+            margin-top: 0;
+        }
+        @media (max-width: 768px) {
+            .about-hero h1 {
+                font-size: 2rem;
+            }
+            .about-hero .tagline {
+                font-size: 1.2rem;
+            }
+            .vision-mission-grid,
+            .problem-belief {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Sunnivaera</div>
+            <ul class="nav-links">
+                <li><a href="index.html"><span class="nav-icon">&#127968;</span> Home</a></li>
+                <li><a href="about.html" class="active"><span class="nav-icon">&#128712;</span> About Us</a></li>
+                <li><a href="index.html#services"><span class="nav-icon">&#128203;</span> Services</a></li>
+                <li><a href="team.html"><span class="nav-icon">&#128101;</span> Team</a></li>
+                <li><a href="index.html#contact"><span class="nav-icon">&#128231;</span> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>About Sunnivaera</h1>
+            <p class="tagline">"Trusted Intelligence for Finance & Cyber Defense"</p>
+        </div>
+    </section>
+
+    <!-- Main About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Who We Are</h2>
+                <p>Sunnivaera is a product-driven technology company building a unified Lakehouse-powered FinTech and Cyber Intelligence Platform. We design intelligence systems that understand customers, regulators, and attackers—simultaneously.</p>
+                <p>Our platforms enable financial institutions to turn fragmented data into actionable insights, proactive risk controls, and responsible AI-driven decisions.</p>
+                
+                <div class="why-exists">
+                    <h3>Why Sunnivaera Exists</h3>
+                    <p>A single, intelligence-driven platform that unifies analytics, fraud, AML, digital lending, and cybersecurity on a common data and AI foundation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Vision & Mission</h2>
+                <div class="vision-mission-grid">
+                    <div class="vm-card">
+                        <h3>Vision</h3>
+                        <p>To become the world's most trusted intelligence platform where financial data, security, and AI converge to protect and empower digital economies.</p>
+                    </div>
+                    <div class="vm-card">
+                        <h3>Mission</h3>
+                        <p>Sunnivaera builds secure, scalable, and regulator-ready data and cybersecurity products that help financial institutions deeply understand customers, prevent financial crime, and innovate responsibly using AI.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Belief Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="problem-belief">
+                    <div class="pb-card">
+                        <h3>The Problem Today</h3>
+                        <ul>
+                            <li>Fragmented data across systems and channels</li>
+                            <li>Reactive fraud and AML operations</li>
+                            <li>Disconnected cybersecurity tools</li>
+                            <li>AI models that lack governance, transparency, and trust</li>
+                        </ul>
+                    </div>
+                    <div class="pb-card">
+                        <h3>Our Belief</h3>
+                        <ul>
+                            <li>Data and security must be one system, not silos</li>
+                            <li>AI must be explainable, auditable, and compliant by design</li>
+                            <li>Products should continuously adapt, not just detect threats</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Capacity Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Capacity & Approach</h2>
+                
+                <h3>1. Product-First, Not Project-First</h3>
+                <ul>
+                    <li>Internal product roadmap</li>
+                    <li>Minimal customization</li>
+                    <li>Configurable, not bespoke</li>
+                </ul>
+
+                <h3>2. Single Data & Security DNA</h3>
+                <ul>
+                    <li>Same lakehouse → analytics + fraud + AML + security</li>
+                    <li>One identity graph across platforms</li>
+                </ul>
+
+                <h3>3. Regulation as a Feature</h3>
+                <ul>
+                    <li>Audit trails</li>
+                    <li>Explainability dashboards</li>
+                    <li>Model decision transparency</li>
+                </ul>
+
+                <h3>4. Global Mindset, Local Intelligence</h3>
+                <ul>
+                    <li>Global compliance frameworks</li>
+                    <li>Localization by policy & data rules</li>
+                    <li>Especially strong for the global fit</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sunnivaera</h4>
+                    <p>Trusted Intelligence for Finance & Cyber Defense</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: sunnivaeratech@gmail.com</p>
+                    <p>Phone: +977-9841159124</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sunnivaera Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

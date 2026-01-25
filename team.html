@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Sunnivaera</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .team-hero {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%);
+            padding: 120px 0 80px;
+            text-align: center;
+            color: white;
+        }
+        .team-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .team-hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .team-section {
+            padding: 80px 0;
+        }
+        .team-intro {
+            max-width: 900px;
+            margin: 0 auto 4rem;
+            text-align: center;
+        }
+        .team-intro p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #333;
+        }
+        .team-category {
+            margin-bottom: 4rem;
+        }
+        .team-category h2 {
+            font-size: 2.5rem;
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+        .team-category h2:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+        }
+        .team-member {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-top: 4px solid #667eea;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
+        }
+        .member-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .member-role {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .member-description {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #666;
+            text-align: center;
+        }
+        .operations-team {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+        .ops-card {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+        }
+        .ops-card h3 {
+            font-size: 1.4rem;
+            color: #764ba2;
+            margin-bottom: 1rem;
+        }
+        .ops-card p {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .team-hero h1 {
+                font-size: 2rem;
+            }
+            .team-hero p {
+                font-size: 1.1rem;
+            }
+            .team-grid,
+            .operations-team {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Sunnivaera</div>
+            <ul class="nav-links">
+                <li><a href="index.html"><span class="nav-icon">&#127968;</span> Home</a></li>
+                <li><a href="about.html"><span class="nav-icon">&#128712;</span> About Us</a></li>
+                <li><a href="index.html#services"><span class="nav-icon">&#128203;</span> Services</a></li>
+                <li><a href="team.html" class="active"><span class="nav-icon">&#128101;</span> Team</a></li>
+                <li><a href="index.html#contact"><span class="nav-icon">&#128231;</span> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="team-hero">
+        <div class="container">
+            <h1>Our Expert Team</h1>
+            <p>Highly accomplished leadership and operations team bringing decades of collective experience across technology, business strategy, and enterprise operations</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="team-intro">
+                <p>Sunnivaera is powered by a highly accomplished leadership and operations team, bringing together decades of collective experience across technology, business strategy, engineering excellence, people management, and enterprise operations. Our team combines deep domain expertise with a shared commitment to innovation, integrity, and long-term value creation.</p>
+            </div>
+
+            <!-- Executive Leadership -->
+            <div class="team-category">
+                <h2>Executive Leadership</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-icon">👔</div>
+                        <div class="member-role">Chief Executive Officer (CEO)</div>
+                        <div class="member-description">
+                            Provides strategic vision, organizational leadership, and governance, with extensive experience in scaling businesses, driving innovation, and building sustainable enterprises.
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">💻</div>
+                        <div class="member-role">Chief Technology Officer (CTO)</div>
+                        <div class="member-description">
+                            Leads technology strategy, architecture, and innovation, leveraging decades of hands-on experience in enterprise systems, cloud platforms, data, and emerging technologies.
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">📊</div>
+                        <div class="member-role">Chief Business Officer (CBO)</div>
+                        <div class="member-description">
+                            Oversees business growth, partnerships, and market expansion, backed by a strong track record in revenue strategy, customer success, and global business development.
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-icon">⚙️</div>
+                        <div class="member-role">Chief Operating Officer (COO)</div>
+                        <div class="member-description">
+                            Drives operational excellence, delivery governance, and execution, ensuring scalable processes, quality outcomes, and efficient organizational performance.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Engineering & Delivery -->
+            <div class="team-category">
+                <h2>Engineering & Delivery</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-icon">🛠️</div>
+                        <div class="member-role">Director of Engineering</div>
+                        <div class="member-description">
+                            Leads engineering teams and delivery frameworks, ensuring high-quality, secure, and scalable solutions through proven engineering leadership and best practices.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- People, Culture & Operations -->
+            <div class="team-category">
+                <h2>People, Culture & Operations</h2>
+                <div class="operations-team">
+                    <div class="ops-card">
+                        <h3>👥 People & Culture (P&C) Team</h3>
+                        <p>Champions talent strategy, organizational culture, leadership development, and workforce excellence, supported by decades of HR and people management experience.</p>
+                    </div>
+                    <div class="ops-card">
+                        <h3>📋 Administration Team</h3>
+                        <p>Ensures smooth day-to-day operations, compliance, finance coordination, and organizational support, enabling teams to focus on innovation and customer success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sunnivaera</h4>
+                    <p>Trusted Intelligence for Finance & Cyber Defense</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: sunnivaeratech@gmail.com</p>
+                    <p>Phone: +977-9841159124</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sunnivaera Pvt. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
